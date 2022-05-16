@@ -25,16 +25,9 @@ public class Main {
 	Pet pt = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);	
 	pt.introduce();
 	
-	
-class RobotPet extends Pet{
-	public RobotPet() {
-		super(Constants.CHECK_CLASS_R2D2,Constants.CHECK_CLASS_LUKE);
-	}
-}	
 
-	RobotPet rpt = new RobotPet();
+	RobotPet rpt = new RobotPet("R2D2","LUKE");
 	rpt.introduce();
-
 	
 	  }
 }
