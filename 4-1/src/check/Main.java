@@ -27,7 +27,9 @@ public class Main {
 	
 
 	RobotPet rpt = new RobotPet("R2D2","LUKE");
-	rpt.introduce();
+	System.out.println(this.name);
+	System.out.println(this.masterName);
+	
 	
 	  }
 }
