@@ -21,15 +21,14 @@ public class Main {
 
 		    System.out.println("printNameメソッド　→　" + printName(firstName, lastName));
 
-	  	
-	Pet pt = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);	
-	pt.introduce();
+	Pet pt = new Pet(Constants.CHECK_CLASS_JAVA, Constants.CHECK_CLASS_HOGE);
+		pt.introduce();
+	 
+	  
 	
-
-	RobotPet rpt = new RobotPet("R2D2","LUKE");
-	System.out.println(this.name);
-	System.out.println(this.masterName);
-	
-	
+	RobotPet rpt = new RobotPet("R2D2", "LUKE") ;
+		rpt.introduce();
+		
 	  }
+
 }
